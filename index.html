@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
     <body class="landing-page landing-page1">
+      <div class="container">
         <nav class="navbar navbar-transparent navbar-top" role="navigation">
             <div class="container-fluid">
 
@@ -70,7 +71,9 @@
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
-        </nav>
+          </nav>
+        </div>
+
         <div class="wrapper">
             <div class="parallax filter-gradient orange" data-color="orange">
                 <div class="parallax-background">
@@ -237,17 +240,25 @@
                   <div class="container">
                     <h4 class="header-text text-center" id="projects">Projects</h4>
                     <div class="row">
-                      <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="assets/img/projects/cardgame/shot2.png" alt="">
-                            <div class="overlay">
-                               <h2>Memory Card Game</h2>
-                               <a class="info" href="http://aleksa000777.github.io/GameProject/">Play</a>
+
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <h4>Memory Card Game</h4>
+                        <p>JavaScript Memory Card Game! Easy to play, use your browser or phone. Find the 2 similar images, get your score and  open all. Check the 'Advanced' mode</p>
+                        </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="assets/img/projects/cardgame/shot2.png" alt="">
+                                <div class="overlay">
+                                   <h2>Memory Card Game</h2>
+                                   <a class="info" href="http://aleksa000777.github.io/GameProject/">Play</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                       <div class="hovereffect">
                           <img class="img-responsive" src="assets/img/projects/restaurant/2.png" alt="">
                           <div class="overlay">
@@ -255,9 +266,20 @@
                              <a class="info" href="http://restaurant-1990.herokuapp.com">link</a>
                           </div>
                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h4>Restaurant App POS system</h4>
+                    <p>This is a full stack web application using Ruby on Rails, Javascript, HTML/CSS, Bootstrap. The are two access users: admin and server. The admin can hire/fire the server, create/edit/delete food or table, see the orders list,the color of which changes according to its priority. The server can seat a party, take orders, close out orders and clean tables.</p>
+                    </div>
                   </div>
 
-                  <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <h4>Yoda Talk</h4>
+              <p>Funny translater to Yoda. Input phrase to know the Yoda's version or see whow looks the famous qoutes by Yoda! Made by using Node.js, Angular</p>
+              </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img class="img-responsive" src="assets/img/projects/yoda/yoda.png" alt="">
                         <div class="overlay">
@@ -265,6 +287,7 @@
                            <a class="info" href="https://yoda-talk.herokuapp.com/">link</a>
                         </div>
                     </div>
+                </div>
                 </div>
 
 
@@ -281,7 +304,7 @@
                         <div class="col-md-4">
                             <div class="card card-orange">
                                 <div class="icon">
-                                    <i class="pe-7s-musiclist"></i>
+                                  <i class="fa fa-graduation-cap"></i>
                                 </div>
                                 <div class="text">
                                     <h4>Moscow State Open University</h4>
@@ -296,7 +319,9 @@
                         <div class="col-md-4">
                             <div class="card card-orange">
                                 <div class="icon">
-                                    <i class="pe-7s-bell"></i>
+                                  <!-- <i class="fa fa-book fa-fw"></i> -->
+                                  <i class="fa fa-university"></i>
+
                                 </div>
                                 <h4>Moscow State Open University</h4>
                                 <p>
@@ -309,7 +334,7 @@
                         <div class="col-md-4">
                             <div class="card card-orange">
                                 <div class="icon">
-                                    <i class="pe-7s-play"></i>
+                                  <i class="fa fa-code"></i>
                                 </div>
                                 <h4>Generall Assembly</h4>
                                 <p>
@@ -332,7 +357,7 @@
                       <img src="assets/img/bottom/cat.png" alt="Aleksa Matiyev" class="img-circle">
                       <a name="contact"></a>
                         <h1>Contact me</h1>
-                        <a href="https://docs.google.com/document/d/1FBrfs_yi7oykSDUxydNbRE5yhpD39fa-pybkwvgJCNA/edit?usp=sharing" class="btn btn-neutral btn-lg btn-fill" target="_blank">Resume google.docs</a>
+                        <a href="https://docs.google.com/document/d/11Iw57THISfkALapVRIZ2cgBvDaKeahlwh-dRCuSepWc/edit?usp=sharing" class="btn btn-neutral btn-lg btn-fill" target="_blank">Resume google.docs</a>
                     </div>
                 </div>
             </div>
@@ -361,7 +386,7 @@
                         </a>
                     </div>
                     <div class="copyright">
-                        &copy; 2016 <a href="#">Aleksandra Matiyev</a>
+                         <a href="#">Aleksandra Matiyev</a>
                     </div>
                 </div>
             </footer>

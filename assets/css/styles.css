@@ -116,3 +116,13 @@ transition-delay:.2s;
 #projects{
   margin-top: 0;
 }
+.brand{
+  margin-right: 3em;
+}
+.navbar-header div{
+  margin-left: 2em;
+}
+
+#example{
+  margin: 0 3em;
+}

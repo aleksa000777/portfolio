@@ -116,8 +116,18 @@ transition-delay:.2s;
 #projects{
   margin-top: 0;
 }
-.brand{
+#initial{
   margin-right: 3em;
+  font-family: 'Alex Brush', cursive;
+  font-weight: bolder;
+  font-size: 3em;
+  padding-top: 15px;
+  text-shadow: 2px 2px 5px #686868;
+
+}
+
+.lefft{
+  margin-right: 40px;
 }
 .navbar-header div{
   margin-left: 2em;
@@ -132,6 +142,20 @@ transition-delay:.2s;
 }
 a span{
   color:black;
-  text-shadow: 1px 1px #686868;
+  text-shadow: 2px 2px 5px #686868;
   font-weight: bold;
+}
+.contact-top{
+  font-size: 2em;
+}
+.header-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+.project-name{
+  text-decoration: underline;
+}
+div.hovereffect{
+     box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }

@@ -126,3 +126,12 @@ transition-delay:.2s;
 #example{
   margin: 0 3em;
 }
+
+.navigation-btn{
+  background-color: white;
+}
+a span{
+  color:black;
+  text-shadow: 1px 1px #686868;
+  font-weight: bold;
+}

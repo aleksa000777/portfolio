@@ -1,4 +1,6 @@
-html{
+html, body {
+  width: 100%;
+  padding: 0;
   margin: 0;
 }
 #try img{
@@ -12,6 +14,7 @@ div.brand{
     display: inline-block;
     max-width:50%; /* limit width */
     word-break:break-all; /* wrap extended text*/
+    font-size: 1.2em;
 }
 .img-circle{
   width: 200px;
@@ -183,4 +186,5 @@ img.background-image{
   color: black;
   background-color: none;
   margin-top: 20%;
+  color:white;
 }

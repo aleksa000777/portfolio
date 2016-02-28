@@ -4,9 +4,10 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <title>Aleksa Matiyev</title>
-
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
         <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link href='https://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
         <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -41,12 +42,12 @@
                 <div class="collapse navbar-collapse" id="example" >
                   <ul class="nav navbar-nav navbar-left">
                       <li class="lefft">
-                          <a class="btn btn-default navigation-btn" href="#projects" role="button">
+                          <a class="btn btn-default navigation-btn" href="#projects" role="button" id="leftbut">
                           <span>Projects</span>
                           </a>
                       </li>
                       <li class="lefft">
-                          <a class="btn btn-default navigation-btn" href="#contact" role="button">
+                          <a class="btn btn-default navigation-btn" href="#contact" role="button" id="leftbut">
                           <span>Contact</span>
                           </a>
                       </li>
@@ -73,88 +74,65 @@
         </div>
 
         <div class="wrapper">
-            <div class="parallax filter-gradient orange" data-color="orange">
-                <div class="parallax-background">
-                    <img class="parallax-background-image" src="assets/img/top/bg3.jpg">
-                </div>
-                <div class= "container">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <div class="description">
-                              <h2>Aleksandra Matiyev</h2>
-                                <h3>WEB DEVELOPER</h3>
-                                <br>
-                                <h5>
-                                  <!-- Hi, I'm Aleksa and i Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
-                                </h5>
-                            </div>
 
-                        </div>
-                    </div>
+            <div class="box-top">
+
+                <div class="box-top-bg">
+                  <div class= "container">
+                      <div class="row">
+                          <div class="col-md-7">
+                              <div class="description">
+                                <h2>Aleksandra Matiyev</h2>
+                                  <h3>WEB DEVELOPER</h3>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                    <img class="background-image" src="assets/img/top/bg3.jpg">
                 </div>
+
             </div>
             <div class="section section-gray section-clients">
                 <div class="container text-center">
                     <h4 class="header-text">Skills</h4>
                         <ul>
-                          <li class='skills col-md-3 col-sm-4 col-xs-12'>
+                          <!-- with progress bar -->
+                          <!-- <li class='skills col-md-3 col-sm-4 col-xs-12'>
                             <span>HTML/CSS</span><div class="progress">
                               <div class="progress-bar" id="my-skills" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:100%">
                             </div>
                             </div>
+                          </li> -->
+
+                          <li class='skills col-md-3 col-sm-4 col-xs-12'>
+                            <span>HTML/CSS</span>
                           </li>
                           <li class='skills col-md-3 col-sm-4 col-xs-12'>
-                            <span>Java Script</span><div class="progress">
-                              <div class="progress-bar" id="my-skills" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                            </div>
-                            </div>
+                            <span>Java Script</span>
                           </li>
                           <li class='skills col-md-3 col-sm-4 col-xs-12'>
-                            <span>Node</span><div class="progress">
-                              <div class="progress-bar" id="my-skills" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                            </div>
-                            </div>
+                            <span>Node</span>
                           </li>
                           <li class='skills col-md-3 col-sm-4 col-xs-12'>
-                            <span>Mongo/PostgreSQL</span><div class="progress">
-                              <div class="progress-bar" id="my-skills" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                            </div>
-                            </div>
+                            <span>Mongo/PostgreSQL</span>
                           </li>
                           <li class='skills col-md-3 col-sm-4 col-xs-12'>
-                            <span>Ruby/Ruby on Rails</span><div class="progress">
-                              <div class="progress-bar" id="my-skills" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                            </div>
-                            </div>
+                            <span>Ruby/Ruby on Rails</span>
                           </li>
                           <li class='skills col-md-3 col-sm-4 col-xs-12'>
-                            <span>Sinatra</span><div class="progress">
-                              <div class="progress-bar" id="my-skills" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-                            </div>
-                            </div>
+                            <span>Sinatra</span>
                           </li>
                           <li class='skills col-md-3 col-sm-4 col-xs-12'>
-                            <span>Angular/Express</span><div class="progress">
-                              <div class="progress-bar" id="my-skills" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-                            </div>
-                            </div>
+                            <span>Angular/Express</span>
                           </li>
                           <li class='skills col-md-3 col-sm-4 col-xs-12'>
-                            <span>Bootstrap</span><div class="progress">
-                              <div class="progress-bar" id="my-skills" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                            </div>
-                            </div>
+                            <span>Bootstrap</span>
                           </li>
                           <li class='skills col-md-3 col-sm-4 col-xs-12'>
-                            <span>Git/Github</span><div class="progress">
-                              <div class="progress-bar" id="my-skills" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                            </div>
-                            </div>
+                            <span>Git/Github</span>
                           </li>
                           <li class='skills col-md-3 col-sm-4 col-xs-12'>
-                            <span>New frameworks</span><div class="progress">
-                              <img src="assets/img/top/progress.gif" alt="">
-                            </div>
+                            <span>Sketch</span>
                           </li>
                         </ul>
 
@@ -246,8 +224,9 @@
 
                       <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <h4 class='project-name'>Memory Card Game</h4>
-                        <p>JavaScript Memory Card Game! Easy to play, use your browser or phone. Find the 2 similar images, get your score and  open all. Check the 'Advanced' mode</p>
+                        <h4 class='project-name'><a href="http://aleksa000777.github.io/GameProject/" target="_blank">Memory Card Game</a></h4>
+                        <p>This is a memory card game. I used HTML5, CSS, JavaScript and JQuery.
+You can choose different difficulty levels and card covers.</p>
                         </div>
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="hovereffect">
@@ -271,7 +250,7 @@
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h4 class='project-name'>Restaurant App POS system</h4>
+                    <h4 class='project-name'><a href="http://restaurant-1990.herokuapp.com" target='_blank'>Restaurant App POS system</a></h4>
                     <p>This is a full stack web application using Ruby on Rails, Javascript, HTML/CSS, Bootstrap. The are two access users: admin and server. The admin can hire/fire the server, create/edit/delete food or table, see the orders list,the color of which changes according to its priority. The server can seat a party, take orders, close out orders and clean tables.</p>
                     </div>
                   </div>
@@ -279,8 +258,9 @@
 
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-              <h4 class='project-name'>Yoda Talk</h4>
-              <p>Funny translater to Yoda. Input phrase to know the Yoda's version or see whow looks the famous qoutes by Yoda! Made by using Ruby on Rails, Angular and Web Speech API’s SpeechRecognition service</p>
+              <h4 class='project-name'><a href="https://yoda-talk.herokuapp.com/" target="_blank">Yoda Talk</a></h4>
+              <p>Yoda translator. You can input a phrase and click 'Yessss' to translate to Yoda-speak, or just click on him and hear a random famous quote by Yoda.
+The app build with Ruby on Rails, Angular, Bootstrap and Web Speech API’s SpeechRecognition service.</p>
               </div>
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="hovereffect">
@@ -305,8 +285,8 @@
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h4 class='project-name'>Nasa Planets D3</h4>
-                    <p>Discover our solar system with NASA! The planets made by D3.js, also check out APOD - Astronomy Picture of the Day from NASA API. </p>
+                    <h4 class='project-name'><a href="https://nasa-planets.herokuapp.com/" target="_blank">Nasa Planets D3</a></h4>
+                    <p>Explore our solar system with NASA! The planets were made with D3.js. Also check out APOD (Astronomy Picture of the Day) from NASA API.</p>
                     </div>
                   </div>
 
@@ -314,8 +294,8 @@
 
                   <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h4 class='project-name'>Date Facts</h4>
-                    <p>MEAN application to show today interesting fact from API, also input your date to check it out. The data saves in MongoDb so you can look what others search.</p>
+                    <h4 class='project-name'><a href="http://datefacts.herokuapp.com/" target="_blank">Date Facts</a></h4>
+                    <p>An application that serves interesting facts every day. This is a MEAN stack application, utilizing a date-facts API. Each fact is stored in the database, so users can look up what others searched for.</p>
                     </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                           <div class="hovereffect">
@@ -340,16 +320,16 @@
                             </div>
                           </div>
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                          <h4 class='project-name'>Active Life</h4>
-                          <p>The app shows activities by current  or search location(no bars, cafe or restaurants). Render 20 most popular activities, click on name or on the map to get more information. Made by Node.js, Angular, Google maps, Yelp API, Skeleton.</p>
+                          <h4 class='project-name'><a href="https://activitiesapp.herokuapp.com/" target="_blank">Active Life</a></h4>
+                          <p>This app shows interesting activities by current (HTML5 Location) or given location. It render the 20 most popular activities, and allows a user to see them on the map and get more information. Made with Node.js, Angular, Google maps, Yelp API, Skeleton.</p>
                           </div>
                         </div>
 
 
                         <div class="row">
                           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                          <h4 class='project-name'>Art District</h4>
-                          <p>Hackathot team project. Hack.summit() New York City is one of the largest cultural hubs in the world, but at the same time, the distribution of the arts isn't even. While in the boundaries of New York, new neighborhoods with even blurrier boundaries are created by the clumping of these arts establishments. Art District helps visualize these boundaries.</p>
+                          <h4 class='project-name'><a href="http://169.45.106.242/" target="_blank">Art District</a></h4>
+                          <p>Hackathot team project. Hack.summit() New York City is one of the largest cultural hubs in the world, but at the same time, the distribution of the arts isn't even. While in the boundaries of New York, new neighborhoods with even blurrier boundaries are created by the clumping of these arts establishments.</p>
                           </div>
                               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="hovereffect">
@@ -373,6 +353,20 @@
                 <div class="container">
                     <h4 class="header-text text-center">Education</h4>
                     <div class="row">
+                      <div class="col-md-4">
+                          <div class="card card-orange">
+                              <div class="icon">
+                                <i class="fa fa-code"></i>
+                              </div>
+                              <h4>Generall Assembly</h4>
+                              <p>
+                                Course: Web Development Immersive
+                              </p>
+                              <p>
+                                Dates: 11.15 - 02.16
+                              </p>
+                          </div>
+                      </div>
                         <div class="col-md-4">
                             <div class="card card-orange">
                                 <div class="icon">
@@ -402,20 +396,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card card-orange">
-                                <div class="icon">
-                                  <i class="fa fa-code"></i>
-                                </div>
-                                <h4>Generall Assembly</h4>
-                                <p>
-                                  Course: Web Development Immersive
-                                </p>
-                                <p>
-                                  Dates: 11.15 - 02.16
-                                </p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -428,7 +409,7 @@
                       <img src="assets/img/bottom/head2.jpg" alt="Aleksa Matiyev" class="img-circle">
                       <a name="contact"></a>
                         <h1>Contact me</h1>
-                        <a href="https://docs.google.com/document/d/1Cu99wNaA4lLKIMQmB-e5GK_0jjfv2BI2UvRsl7uH_FQ/edit?usp=sharing" class="btn btn-neutral btn-lg btn-fill" target="_blank">Resume google.docs</a>
+                        <a href="https://docs.google.com/document/d/1Cu99wNaA4lLKIMQmB-e5GK_0jjfv2BI2UvRsl7uH_FQ/edit?usp=sharing" class="btn btn-neutral btn-lg btn-fill" target="_blank">Resume</a>
                     </div>
                 </div>
             </div>

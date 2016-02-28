@@ -1,3 +1,8 @@
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 #try img{
   width: 100px;
   height: 50px;
@@ -9,6 +14,7 @@ div.brand{
     display: inline-block;
     max-width:50%; /* limit width */
     word-break:break-all; /* wrap extended text*/
+    font-size: 1.2em;
 }
 .img-circle{
   width: 200px;
@@ -131,6 +137,9 @@ transition-delay:.2s;
 .lefft{
   margin-right: 40px;
 }
+.lefft a:hover{
+  background-color: black;
+}
 .navbar-header div{
   margin-left: 2em;
 }
@@ -142,9 +151,14 @@ transition-delay:.2s;
 .navigation-btn{
   background-color: white;
 }
+#leftbut:hover{
+  color: white;
+  background-color: white;
+  opacity: 1;
+}
 a span{
   color:black;
-  text-shadow: 2px 2px 5px #686868;
+  /*text-shadow: 2px 2px 5px #686868;*/
   font-weight: bold;
 }
 .contact-top{
@@ -163,4 +177,14 @@ div.hovereffect{
 }
 #my-skills{
   background-color: rgb(106, 208, 122);
+}
+img.background-image{
+  width: 100%;
+}
+.description{
+  position: absolute;
+  color: black;
+  background-color: none;
+  margin-top: 20%;
+  color:white;
 }

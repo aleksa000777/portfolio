@@ -17,8 +17,9 @@ div.brand{
     font-size: 1.2em;
 }
 .img-circle{
-  width: 230px;
+  width: 200px;
   height: 200px;
+  /*border-radius: 40%;*/
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
   border:1px solid rgba(0, 0, 0, 0.2);
 }

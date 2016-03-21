@@ -1,4 +1,3 @@
-# portfolio
 Aleksandra Matiyev
 ===================
 **(917) 724-7948**

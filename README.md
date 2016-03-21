@@ -28,7 +28,7 @@ Developed by using Ruby on Rails, JavaScript,SQL/Database. Has authentication an
 
 **NASA Planets (2016)**
  Explore our solar system with NASA! The planets were made with D3.js. Also check out APOD (Astronomy Picture of the Day) from NASA API.. (JavaScript, JQuery, MongoDB, HTML, CSS)
- ![NASA Planets](https://github.com/aleksa000777/portfolio/blob/master/assets/img/projects/nasa/1.png)
+ ![NASA Planets](https://github.com/aleksa000777/portfolio/blob/master/assets/img/projects/nasa/1.gif)
  
 **DATE Facts (2016)**
 Serves interesting facts every day. This is a MEAN stack application, utilizing a date-facts API. Each fact is stored in the database, so users can look up what others searched for.

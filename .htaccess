@@ -1,14 +1,19 @@
-# 1 Month for all your static assets
- <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
- Header set Cache-Control "max-age=2592000, public"
- </filesMatch>
-
- # 1 DAYS for rss feeds and robots
- <filesMatch ".(xml|txt)$">
- Header set Cache-Control "max-age=86400, public, must-revalidate"
- </filesMatch>
-
- # 4 HOURS for your real articles files
- <filesMatch ".(html|htm)$">
- Header set Cache-Control "max-age=14400, must-revalidate"
- </filesMatch>
+# BEGIN Caching
+<ifModule mod_headers.c>
+<filesMatch "\\.(ico|pdf|flv|jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+<filesMatch "\\.(css)$">
+Header set Cache-Control "max-age=604800, public"
+</filesMatch>
+<filesMatch "\\.(js)$">
+Header set Cache-Control "max-age=216000, private"
+</filesMatch>
+<filesMatch "\\.(xml|txt)$">
+Header set Cache-Control "max-age=216000, public, must-revalidate"
+</filesMatch>
+<filesMatch "\\.(html|htm|php)$">
+Header set Cache-Control "max-age=1, private, must-revalidate"
+</filesMatch>
+</ifModule>
+# END Caching

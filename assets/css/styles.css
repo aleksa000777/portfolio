@@ -180,13 +180,6 @@ div.hovereffect{
   background-color: rgb(106, 208, 122);
 }
 
-/*.description{
-  position: absolute;
-  color: black;
-  background-color: none;
-  margin-top: 50px;
-  z-index: 3;
-}*/
 .description{
   position: absolute;
   width: 100%;
@@ -217,37 +210,6 @@ img.background-image{
    font-size: 26px;
  }
 }
-
-/*@media (min-width: 768px){
-  .description{
-    width: 100vw;
-    position: absolute;
-    color: black;
-    background-color: none;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 20%;
-    z-index: 3;
-
-
-  }
-}
-*/
-/*@media (min-width: 1008px){
-  .description{
-    width: 100vw;
-    position: absolute;
-    color: black;
-    background-color: none;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 20%;
-    margin-left: -20%;
-    z-index: 3;
-
-
-  }
-}*/
 @media (max-width: 380px){
   .row{
     margin: 0;

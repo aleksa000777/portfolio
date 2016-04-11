@@ -16,4 +16,13 @@ Header set Cache-Control "max-age=216000, public, must-revalidate"
 Header set Cache-Control "max-age=1, private, must-revalidate"
 </filesMatch>
 </ifModule>
+<IfModule mod_expires.c>
+
+# Enable expirations
+ExpiresActive On
+
+# Default directive
+ExpiresDefault "access plus 1 month"
+
+</IfModule>
 # END Caching

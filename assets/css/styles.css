@@ -232,3 +232,9 @@ img.background-image{
 
   }
 }
+@media (max-width: 380px){
+  .row{
+    margin: 0;
+    width:100% !important;
+  }
+}

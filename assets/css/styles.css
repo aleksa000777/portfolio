@@ -181,11 +181,54 @@ div.hovereffect{
 }
 img.background-image{
   width: 100%;
+  max-height: 500px;
 }
 .description{
   position: absolute;
   color: black;
   background-color: none;
   margin-top: 50px;
-  color:white;
+  z-index: 3;
+}
+
+.shadow-white{
+  background-color: white;
+  opacity: 0.7;
+  z-index: 2;
+}
+
+@media (max-width: 350px){
+  h2, .h2 {
+   font-size: 26px;
+ }
+}
+
+@media (min-width: 768px){
+  .description{
+    width: 100vw;
+    position: absolute;
+    color: black;
+    background-color: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20%;
+    z-index: 3;
+
+
+  }
+}
+@media (min-width: 1208px){
+  .description{
+    width: 100vw;
+    position: absolute;
+    color: black;
+    background-color: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: -20%;
+    z-index: 3;
+
+
+  }
 }

@@ -4,12 +4,12 @@ $(document).ready(function(){
 
 function init(){
   // gen_mail_to_link();
-  scroll_nav();
+  // gen_mail_to_link();
 }
 function gen_mail_to_link(lhs,rhs,subject) {
   $('.mail').prepend("<a class='btn btn-social btn-envelope btn-simple' href=\"mailto:" + lhs + "@"+rhs + "?subject=" + subject + "\">" + "<i class='fa fa-envelope'>"+"<\/i>" + "<\/a>")
     }
-function scroll_nav(){
+// function scroll_nav(){
   // $('a[href^="#"]').on('click', function(event) {
   //   console.log("here");
   //   console.log(this);
@@ -22,4 +22,4 @@ function scroll_nav(){
   //         }, 1000);
   //     }
   // });
-}
+// }

@@ -3,8 +3,12 @@ $(document).ready(function(){
 })
 
 function init(){
-  // gen_mail_to_link();
-  // gen_mail_to_link();
+  // console.log("mew");
+  //   imageWidth = $('.shadow-white img').width();
+  //   parentWidth = $('.shadow-white').width();
+  //   if (imageWidth > parentWidth) {
+  //       $('.shadow-white img').css('width', '100%');
+  //   }
 }
 function gen_mail_to_link(lhs,rhs,subject) {
   $('.mail').prepend("<a class='btn btn-social btn-envelope btn-simple' href=\"mailto:" + lhs + "@"+rhs + "?subject=" + subject + "\">" + "<i class='fa fa-envelope'>"+"<\/i>" + "<\/a>")

@@ -215,3 +215,8 @@ img.background-image{
     width:100% !important;
   }
 }
+
+
+#resume-hidden{
+  display: none;
+}

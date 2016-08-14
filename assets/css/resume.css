@@ -1,0 +1,11 @@
+.resume-container {
+  margin: 0 2em;
+}
+
+.name{
+  text-align: center;
+}
+
+.skills-resume > h1, .experience > h1, .education > h1, .hackathons > h1, .contact-resume > h1 {
+    text-align: center;
+  }

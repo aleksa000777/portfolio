@@ -217,6 +217,12 @@ img.background-image{
 }
 
 
-#resume-hidden{
-  display: none;
+.about-me {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#bio {
+  font-size: 20px;
 }
